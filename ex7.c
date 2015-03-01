@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 	printf("You have %d at the imaginary rate of %f.\n", 
 			bugs, bug_rate);
 
-	long universe_of_defects = 1L * 1024L * 1024L * 1024L;
+	unsigned long universe_of_defects = 1L * 1024L * 1024L * 1024L * 1024L * 1024L * 1024L * 1024L * 1024L * 1024L;
 	printf("The entire eniverse has %ld bugs.\n", 
 			universe_of_defects);
 
